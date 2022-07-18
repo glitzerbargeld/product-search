@@ -333,4 +333,4 @@ add_action( 'wp_enqueue_scripts', 'search_plugin_scripts_styles' );
     	}
 
     }
-?>
+
