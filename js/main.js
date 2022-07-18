@@ -3,7 +3,7 @@
     "use strict";
 jQuery('form[name="product-search"]').each(function(){
  
-        var form          = $(this),
+        var form          = jQuery(this),
             search        = form.find('.search'),
             category      = form.find('.category'),
             currentQuery  = '',
