@@ -1,7 +1,7 @@
-(function($){
+(function(jQuery){
  
     "use strict";
-$('form[name="product-search"]').each(function(){
+jQuery('form[name="product-search"]').each(function(){
  
         var form          = $(this),
             search        = form.find('.search'),
